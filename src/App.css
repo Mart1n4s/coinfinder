@@ -1,38 +1,61 @@
-.App {
+.mainClass {
+  background-color: white;
+}
+
+.headerClass {
+  display: var(--display);
+  align-items: var(--align-items);
+  justify-content: var(--justify-content);
+  padding: 20px;
+  outline: 2px solid gray;
+  background: beige;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.inputContainer {
+  display: var(--display);
+  align-items: var(--align-items);
+  justify-content: var(--justify-content);
+  margin: var(--margin);
+}
+
+.searchBar {
+  width: 300px;
+  height: 30px;
+  border: var(--border);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: var(--font-size);
+  margin: var(--margin);
+}
+
+.currencySelector {
+  width: 100px;
+  height: 50px;
+  border: var(--border);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: var(--font-size);
+  margin: var(--margin);
+}
+
+.coinClass {
+  display: var(--display);
+  align-items: var(--align-items);
+  justify-content: var(--justify-content);
+}
+
+.coinTable {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.coinTable td {
+  padding: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.coinTable th {
+  font-style: italic;
 }

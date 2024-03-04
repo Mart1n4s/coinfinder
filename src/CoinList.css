@@ -1,0 +1,13 @@
+.coinRow {
+    border-bottom: 1px solid #ccc;
+}
+
+.coinImage img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 40px;
+}
+
+.coinName {
+    font-weight: bold;
+}
